@@ -16,7 +16,7 @@ Package.onUse(function(api){
 	], both);
 
 	api.addFiles([
-		'bower.json',
+		'smart.json',
 		'lib/ns-default.css',
 		'lib/ns-style-attached.css',
 		'lib/ns-style-bar.css',
