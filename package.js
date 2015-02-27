@@ -12,7 +12,7 @@ Package.onUse(function(api){
 	api.versionsFrom('METEOR@1.0');
 
 	api.use([
-		'mquandalle:bower@0.1.11'
+		'mquandalle:bower@1.3.12_2'
 	], both);
 
 	api.addFiles([
