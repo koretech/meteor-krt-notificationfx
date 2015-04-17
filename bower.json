@@ -1,0 +1,12 @@
+{
+  "name": "meteor-krt-notificationfx",
+  "version": "0.0.1",
+  "dependencies": {
+	"classie": "1.0.1"
+  },
+  "overrides": {
+	"jquery": {
+	  "main": []
+	}
+  }
+}
