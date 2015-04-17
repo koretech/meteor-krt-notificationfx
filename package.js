@@ -4,7 +4,8 @@ Package.describe({
 	name: 'krt:notificationfx',
 	summary: 'NotificationFX Package',
 	version: '0.2.0',
-	git: 'https://github.com/koretech/meteor-krt-notificationfx.git'
+	git: 'https://github.com/koretech/meteor-krt-notificationfx.git',
+	documentation: null
 });
 
 Package.onUse(function(api){
