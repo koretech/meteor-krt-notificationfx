@@ -3,20 +3,20 @@ var client = 'client', server = 'server', both = ['client', 'server'];
 Package.describe({
 	name: 'krt:notificationfx',
 	summary: 'NotificationFX Package',
-	version: '0.2.0',
+	version: '0.2.1',
 	git: 'https://github.com/koretech/meteor-krt-notificationfx.git',
 	documentation: null
 });
 
 Package.onUse(function(api){
 
-	api.versionsFrom('METEOR@1.0');
+	api.versionsFrom('METEOR@1.2');
 
 	api.use([
-		'less',
 		'underscore',
-		'krt:core@0.1.3',
-		'mquandalle:bower@1.3.12_3'
+		'krt:core@0.1.4',
+		'flemay:less-autoprefixer@1.1.0',
+		'mquandalle:bower@1.5.2'
 	], both);
 
 	api.imply([
